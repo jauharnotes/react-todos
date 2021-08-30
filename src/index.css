@@ -13,6 +13,10 @@ h2 {
   color: #333333;
 }
 
+.title {
+  text-align: center;
+}
+
 .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
@@ -36,6 +40,11 @@ h2 {
 
 .btn--alt:hover {
   background-color: #f8dae9;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .card {
